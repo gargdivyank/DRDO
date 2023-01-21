@@ -3,7 +3,7 @@
 }
 
 #slideshowImg{
-    height: 750px;
+    height: 550px;
     object-fit: cover;
 }
 
@@ -45,11 +45,11 @@
     height: 400px;
 
     /* Photo by Michał Parzuchowski on Unsplash */
-    background-image: url("../images/quote-bg.jpg");
+    background-image: url(../PhotoDrdo/WhatsApp\ Image\ 2023-01-21\ at\ 15.26.33.jpg);
     background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-
+    /* background-attachment: fixed;
+    background-repeat: no-repeat; */
+    margin-top: 30px;
     display: block;
     color: #FFF;
     text-align: center;
@@ -262,13 +262,6 @@ a:hover{
     margin-bottom: 40px;
 }
 
-#web{
-  /*  background-color: #E4E7EB; */
-}
-
-body{
-    /* background-color: #E4E7EB; */
-}
 
 .project{
     height: 200px;
