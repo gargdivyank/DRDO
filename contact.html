@@ -78,85 +78,44 @@
   </style>
 </head>
 <body>
-   <!-- Header -->
-   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">DRDO</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about-us.html">About Us</a>
-            </li>
-            <li class="nav-item dropdown active">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Services
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="/army.html">Army</a>
-                <a class="dropdown-item" href="/navy.html">Navy</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="/airforce.html">Air-Force</a>
-                </div>
-            </li>
+    <div class="con">
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand mb-0 h1" href="./index.html">Home</a>
+          </nav>
+    </div>
+      <br>
+<!-- <p>Resize the browser window to see the effect.</p> -->
 
-            <li class="nav-item">
-              <!-- <a class="nav-link" href="portfolio.html">Portfolio</a> -->
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contact Us</a>
-            </li>
-          </ul>
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <!-- <p>Swing by for a cup of coffee, or leave us a message:</p> -->
+  </div>
+  <div class="row">
+    <div class="column">
+        <div class="wth" style="padding: 20px;">
+            <img src="./PhotoDrdo/DRDO-Logo-PNG-Image_fd8hrd.png" style="width:50%">
         </div>
-      </nav>
-      <!-- End Header-->
-      
-      <br/>
-      <br/>
-      <br/>
-      
-      <div class="container">
-        <div style="text-align:center">
-          <h2>Contact Us</h2>
-        </div>
-        <div class="row">
-          <div class="column">
-              <div class="wth" style="padding: 20px;">
-                  <img src="./PhotoDrdo/DRDO-Logo-PNG-Image_fd8hrd.png" style="width:50%">
-              </div>
-          </div>
-          <div class="column">
-            <form action="/action_page.php">
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-              </select>
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-              <input type="submit" value="Submit">
-            </form>
-          </div>
-        </div>
-      </div>
-    
-     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
